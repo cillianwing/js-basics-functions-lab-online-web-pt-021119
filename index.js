@@ -2,6 +2,5 @@
 const feetPerBlock = 264;
 
 function distanceFromHqInBlocks(feet) {
-  let result;
-  
+  return result = (feet/feetPerBlock)
 }
