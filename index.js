@@ -3,4 +3,5 @@ const feetPerBlock = 264;
 
 function distanceFromHqInBlocks(feet) {
   let result = Math.ceil(feet/feetPerBlock);
+  return result
 }
