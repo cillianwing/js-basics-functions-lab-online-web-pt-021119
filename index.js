@@ -28,5 +28,5 @@ function distanceTravelledInFeet (startBlock, endBlock) {
     result = (endBlock - startBlock) * feetPerBlock;
   }
   return result;
-  
 }
+
