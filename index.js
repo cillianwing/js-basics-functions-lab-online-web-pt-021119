@@ -18,3 +18,7 @@ function distanceFromHqInFeet(block) {
   result = distanceFromHqInBlocks(block) * feetPerBlock
   return result
 }
+
+function distanceTravelledInFeet () {
+  
+}
