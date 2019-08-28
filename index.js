@@ -19,7 +19,7 @@ function distanceFromHqInFeet(block) {
   return result
 }
 
-function distanceTravelledInFeet () {
+function distanceTravelledInFeet (startBlock, endBlock) {
   let result;
   
 }
