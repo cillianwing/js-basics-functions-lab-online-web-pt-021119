@@ -3,6 +3,9 @@ const feetPerBlock = 264;
 const hqBlock = 42;
 
 function distanceFromHqInBlocks(block) {
-  let result = block - hqBlock;
+  let result;
+  if (block > 42) {
+    result = block - hqBlock;
+  }
   return result;
 }
