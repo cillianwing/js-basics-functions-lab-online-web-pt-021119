@@ -30,3 +30,6 @@ function distanceTravelledInFeet (startBlock, endBlock) {
   return result;
 }
 
+function calculatesFarePrice(startBlock, endBlock) {
+  
+}
