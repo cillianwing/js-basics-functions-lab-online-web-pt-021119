@@ -4,7 +4,7 @@ const hqBlock = 42;
 
 function distanceFromHqInBlocks(block) {
   let result;
-  if (block > 42) {
+  if (block > hqBlock) {
     result = block - hqBlock;
   }
   return result;
