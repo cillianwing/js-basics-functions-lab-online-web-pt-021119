@@ -7,5 +7,8 @@ function distanceFromHqInBlocks(block) {
   if (block > hqBlock) {
     result = block - hqBlock;
   }
+  else if (block < hqBlock) {
+    result = hqBlock - block;
+  }
   return result;
 }
